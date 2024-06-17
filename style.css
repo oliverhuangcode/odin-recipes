@@ -1,0 +1,34 @@
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #f4f1de;
+}
+
+.heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+.heading.main {
+  font-size: 48px;
+  text-align: center;
+  color: #3d405b;
+}
+
+.heading.small {
+  background-color: #3d405b;
+  font-size: 24px;
+  color: #f2cc8f;
+}
+
+.heading.sub {
+  font-size: 20px;
+  color: #e07a5f;
+}
+
+a {
+  font-size: 18px;
+  color: #81b29a
+}
+
+em {
+  color: #61626d;
+}
