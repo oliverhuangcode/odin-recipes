@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #f4f1de;
@@ -6,7 +9,9 @@ body {
 .heading {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
+  margin-left: 10px;
 }
+
 .heading.main {
   font-size: 48px;
   text-align: center;
@@ -17,18 +22,66 @@ body {
   background-color: #3d405b;
   font-size: 24px;
   color: #f2cc8f;
+  padding: 10px;
+  width: 10em;
+  text-align: center;
 }
 
 .heading.sub {
   font-size: 20px;
   color: #e07a5f;
+  margin-left: 20px;
 }
 
 a {
   font-size: 18px;
-  color: #81b29a
+  color: white;
+  background-color: #81b29a;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+img {
+  margin-left: 10px;
 }
 
 em {
   color: #61626d;
+  margin-left: 0px;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.recipe {
+  display: flex;
+}
+
+.home-link {
+  text-align: center;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 10px;
+  margin-bottom: 10px;
+}
+
+.time {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+  border-left-style: none;
+}
+
+.time.end {
+  border-right-style: none;
+}
+
+.serving {
+  color:#e07a5f;
+  font-weight: bold;
 }
